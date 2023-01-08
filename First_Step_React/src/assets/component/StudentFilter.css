@@ -1,0 +1,16 @@
+.select_wrapper{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0px auto 10px;
+    align-items: center;
+}
+.select_wrapper h3{
+    margin: 0px;
+}
+.select_wrapper select{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}

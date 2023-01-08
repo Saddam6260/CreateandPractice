@@ -1,0 +1,35 @@
+.form_wrapper{
+    max-width: 740px;
+    border-radius: 10px;
+    margin: 50px auto 30px auto;
+    background-color: rgb(195, 222, 245);
+    padding: 30px;
+}
+.form_container{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 40% 40%;
+    row-gap: 20px;
+    column-gap: 2.5%;
+}
+.input_Wrap{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 5px;
+}
+.input_Wrap input{
+    padding: 7px 0px 7px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submitbtn_wrap{
+    text-align: end;
+    margin-top: 30px;
+}
+.submitbtn_wrap button{
+    border: none;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 8px;
+}
